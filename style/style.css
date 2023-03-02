@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 40px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(242, 255, 0);
+    text-transform: capitalize;
+    letter-spacing: 3px;
+
+}
+
+a:hover{
+    color: rgb(236, 9, 119);
+    text-decoration: underline
+}
+
+body{
+  background-image:  linear-gradient(rgba(52, 13, 74, 0.438), rgba(19, 6, 21, 0.75)) ,url(/assets/bodyimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100;
+ overflow: hidden;
+}
+
+.png{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 30px;
+
+}
+.logo{
+    padding-left: 10px;
+    margin-right: 30px;
+    width: 110px;
+    cursor: pointer;
+
+}
+
+ul{
+    display: flex;
+
+}
+
+
+ul li{
+    list-style: none;
+   
+}
+
+header button{
+  font-size: 18px;
+  margin-left: 70px;
+  padding: 5px 25px;
+  text-transform: capitalize;
+  border: none;
+  text-align: center;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+
+}
+header button:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 100px;
+    padding-top: 60px;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: 100px;
+    color: yellow;
+}
+
+.men{
+    margin-left: 130px;
+    line-height: 10px;
+}
+
+ button{
+    display: block;
+    font-size: 18px;
+    margin: 30px auto;
+    padding: 15px 40px;
+    text-transform: capitalize;
+    border: none;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+footer img{
+    width: 150px;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-right: 25px;
+    
+}
